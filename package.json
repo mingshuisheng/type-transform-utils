@@ -2,7 +2,7 @@
   "name": "type-transform-utils",
   "version": "0.1.0",
   "type": "module",
-  "description": "A Vite Plugin to change",
+  "description": "A type transform utils",
   "scripts": {
     "build": "unbuild --minify",
     "stub": "unbuild --stub"
