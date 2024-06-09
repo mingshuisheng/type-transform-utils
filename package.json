@@ -5,7 +5,7 @@
   "description": "A type transform utils",
   "scripts": {
     "build": "unbuild --minify",
-    "stub": "unbuild --stub"
+    "dev": "unbuild --stub"
   },
   "repository": {
     "type": "git",
