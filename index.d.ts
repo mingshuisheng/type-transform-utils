@@ -1,0 +1,1 @@
+export function typeKeys<T extends object>(): Array<keyof T>

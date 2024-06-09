@@ -1,0 +1,49 @@
+{
+  "name": "type-transform-utils",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A Vite Plugin to change",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mingshuisheng/type-transform-utils"
+  },
+  "keywords": [
+    "vite plugin",
+    "Typescript",
+    "interface",
+    "key",
+    "array"
+  ],
+  "author": "mingshuisheng",
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/mingshuisheng/type-transform-utils/issues"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "import": "./index.js"
+    },
+    "./vite": {
+      "types": "./dist/vite.d.ts",
+      "require": "./dist/vite.cjs",
+      "import": "./dist/vite.mjs"
+    }
+  },
+  "files": [
+    "dist",
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/mingshuisheng/type-transform-utils",
+  "devDependencies": {
+    "ts-morph": "^22.0.0",
+    "typescript": "^5.4.5",
+    "unbuild": "^2.0.0",
+    "vite": "^5.2.0"
+  }
+}
